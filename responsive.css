@@ -1,0 +1,64 @@
+/* MEDIA QUERIES */
+
+
+/*
+_________________________________________________________________________________________________
+
+##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    /* Here the container width will be 1024(divisible by 12) */
+}
+
+
+/* 
+_________________________________________________________________________________________________
+
+##Device = Tablets, Ipads (portrait)
+##Screen = B/w 768px to 1024px
+
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    /* TO decide about container width*/
+}
+
+
+/* 
+_________________________________________________________________________________________________
+
+##Device = Tablets, Ipads (landscape)
+##Screen = B/w 768px to 1024px
+
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    /* Here the container width will be 768(divisible by 12) */
+}
+
+
+/* 
+_________________________________________________________________________________________________
+
+##Device = Low Resolution Tablets, Mobiles (Landscape)
+##Screen = B/w 481px to 767px
+
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+    /* Here the container width will be 480(divisible by 12) */
+}
+
+
+/*_________________________________________________________________________________________________
+
+##Device = Most of the Smartphones Mobiles (Portrait)
+##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+    /* Here the container width will be 312(divisible by 12) */
+}
